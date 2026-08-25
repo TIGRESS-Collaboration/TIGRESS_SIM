@@ -1,4 +1,4 @@
-#
+# ssd_superpulseV2.jl
 # Reads Geant4 energy-deposition points, simulates SSD/ADL
 # waveforms, selects clean 1332.5-keV single-segment-like
 # events, and averages them into simulated superpulses.

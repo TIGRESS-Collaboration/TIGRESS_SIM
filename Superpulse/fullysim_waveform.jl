@@ -1,4 +1,4 @@
-#
+#fullysim_waveform.jl
 # Converts Geant4 hits into an ML-ready single-cluster waveform dataset:
 #
 #   geant_hits.csv

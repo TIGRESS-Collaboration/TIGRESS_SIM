@@ -1,4 +1,4 @@
-#
+# julia-to-pytorch-data.jl
 # Converts the Julia-serialized ML dataset into C-order binary arrays for
 # NumPy/PyTorch. Julia is column-major, so multidimensional arrays are
 # explicitly permuted before writing.

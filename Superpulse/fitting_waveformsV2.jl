@@ -1,3 +1,4 @@
+# fitting_waveformsV2.jl
 # Joint fit of simulated HPGe superpulses to real data with:
 #   - native-grid baseline subtraction
 #   - explicit simulated-core polarity correction

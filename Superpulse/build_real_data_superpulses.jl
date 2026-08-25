@@ -1,3 +1,4 @@
+# build_real_data_superpulses.jl
 # The numeric field between the contact label and ':' is parsed only as
 # syntax and is NEVER stored or used. All target selection, calibration,
 # energy gating, confidence, averaging, plots, and CSV values come from
