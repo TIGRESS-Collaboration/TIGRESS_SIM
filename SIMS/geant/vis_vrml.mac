@@ -1,0 +1,20 @@
+/control/verbose 1
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+
+/vis/open VRML2FILE
+/vis/drawVolume
+/vis/viewer/set/style wireframe
+/vis/viewer/set/auxiliaryEdge true
+/vis/scene/add/axes 0 0 0 50 mm
+
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate 20
+
+/run/beamOn 50000
+
+/vis/viewer/flush

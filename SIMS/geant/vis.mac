@@ -1,0 +1,37 @@
+/control/verbose 1
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+
+# Open interactive OpenGL viewer.
+/vis/open OGL 1200x900-0+0
+
+# Draw geometry.
+/vis/drawVolume
+
+# Make geometry easier to inspect.
+/vis/viewer/set/style wireframe
+/vis/viewer/set/auxiliaryEdge true
+/vis/viewer/set/lineSegmentsPerCircle 96
+
+# Camera view.
+/vis/viewer/set/viewpointVector 1 -1 0.7
+/vis/viewer/set/upVector 0 0 1
+/vis/viewer/zoom 1.2
+
+# Add coordinate axes. Length is 50 mm.
+/vis/scene/add/axes 0 0 0 50 mm
+
+# Store and draw gamma/electron trajectories.
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories smooth
+
+# Accumulate several events in the viewer.
+/vis/scene/endOfEventAction accumulate 20
+
+# Run only a small number of events for visualization.
+/run/beamOn 20
+
+/vis/viewer/flush
