@@ -1,0 +1,12 @@
+parameter,target_contact,value_ns
+outer_tau,all,13.0
+core_tau,all,17.0
+core_extra_delay,all,-40.0
+global_shift,1,177.5
+global_shift,2,178.5
+global_shift,3,188.5
+global_shift,4,187.0
+global_shift,5,177.0
+global_shift,6,173.0
+global_shift,7,186.5
+global_shift,8,189.0

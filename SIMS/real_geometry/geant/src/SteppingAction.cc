@@ -113,7 +113,7 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
             ->GetVolume()
             ->GetLogicalVolume();
 
-    if (volume->GetName() != "MikeyAActiveCrystal")
+    if (volume->GetName() != "GimpyBActiveCrystal")
         return;
 
     fEventAction->AddEdep(edep);

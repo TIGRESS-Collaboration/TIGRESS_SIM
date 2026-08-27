@@ -1,0 +1,9 @@
+/run/initialize
+/vis/open OGL
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 70 25 deg
+/vis/viewer/set/style surface
+/vis/scene/add/axes 0 0 0 50 mm
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/run/beamOn 20

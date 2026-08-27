@@ -5,7 +5,7 @@
 #   - constant-thickness outer contacts
 #   - rounded blind-end core bore
 #   - offset core bore centered on the tapered/top face
-#   - Mikey A impurity gradient
+#   - Gimpy B impurity gradient
 #   - electric potential / electric field calculation
 #   - optional weighting potentials
 #
@@ -37,7 +37,7 @@ const RUN_WEIGHTING_POTENTIALS = true
 const REFINEMENT_LIMITS = [1.0, 0.5, 0.25]
 
 # ============================================================
-# Mikey A / Gimpy B detector parameters
+# Gimpy B detector parameters
 # ============================================================
 
 const CRYSTAL_NAME = "Gimpy_B"

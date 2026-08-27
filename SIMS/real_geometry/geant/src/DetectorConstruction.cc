@@ -310,7 +310,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     rotX22p5->rotateX(-TAPER_ANGLE);
 
     G4SubtractionSolid* solidCrystal = new G4SubtractionSolid(
-        "MikeyAActiveCrystal",
+        "GimpyBActiveCrystal",
         solidAfterTaper1,
         solidTaperBox,
         rotX22p5,
@@ -328,14 +328,14 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     G4LogicalVolume* logicCrystal = new G4LogicalVolume(
         solidCrystal,
         germanium,
-        "MikeyAActiveCrystal"
+        "GimpyBActiveCrystal"
     );
 
     new G4PVPlacement(
         nullptr,
         G4ThreeVector(0.0, 0.0, 0.0),
         logicCrystal,
-        "MikeyAActiveCrystal",
+        "GimpyBActiveCrystal",
         logicWorld,
         false,
         0,

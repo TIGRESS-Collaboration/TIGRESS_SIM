@@ -1,0 +1,5 @@
+# Source particle, energy, location, and cone are hard-coded in
+# PrimaryGeneratorAction.cc to match the original shaped-detector setup.
+/run/initialize
+/run/printProgress 10000
+/run/beamOn 3000000
